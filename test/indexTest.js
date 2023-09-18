@@ -9,8 +9,8 @@ describe('index.js', function () {
       expect(companyName).to.equal('Scuber');
     });
 
-    it('is defined as a const', function () {
-      expect(js).to.match(/const companyName/, "Expected companyName to be a const");
+    it('is defined as a let', function () {
+      expect(js).to.match(/let companyName/, "Expected companyName to be a const");
     });
   });
 
